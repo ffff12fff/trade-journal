@@ -1,2 +1,13 @@
-# trade-journal
-交易复盘 · US Stock Journal — local-first trading journal
+# 交易复盘 · US Stock Journal
+
+一个完全离线的美股交易复盘日志，数据只保存在浏览器本机。
+
+**在线访问：https://ffff12fff.github.io/trade-journal/**
+
+- 记录交易、加仓 / 减仓、实时成本均价、已实现盈亏
+- 每条仓位变动可加留言和最多 3 张截图
+- 资金曲线按真实平仓日期绘制
+- 胜率、盈亏比、期望值、平均 R、最大回撤、策略标签表现
+- 支持 iPhone 添加到主屏幕、离线打开
+
+> 数据存储在每个浏览器本机的 localStorage / IndexedDB 中，不同网址之间不互通。换网址前请先导出 JSON 备份。
